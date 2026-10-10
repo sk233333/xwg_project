@@ -5,6 +5,7 @@
 > 难度：零基础可跑通，每行代码都有中文注释
 
 ---
+## 这个项目的详细解读教程请看这个博客：[xwg_readme_8](https://sk233333.github.io/posts/my-first-post/)
 
 ## 一、这个项目在做什么
 
