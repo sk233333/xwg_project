@@ -1,0 +1,3 @@
+[console_scripts]
+turtle_circle = py_turtle_control.turtle_circle:main
+

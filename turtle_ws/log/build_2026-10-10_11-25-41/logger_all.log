@@ -1,0 +1,267 @@
+[0.099s] DEBUG:colcon:Command line arguments: ['/usr/local/bin/colcon', 'build']
+[0.099s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f0fdf0506d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f0fdf0501c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f0fdf0501c0>>)
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.235s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/wxx/xwg/turtle_ws'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_status_listener) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_status_listener) by extension 'ignore'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_status_listener) by extension 'ignore_ament_install'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_status_listener) by extensions ['colcon_pkg']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_status_listener) by extension 'colcon_pkg'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_status_listener) by extensions ['colcon_meta']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_status_listener) by extension 'colcon_meta'
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_status_listener) by extensions ['ros']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_status_listener) by extension 'ros'
+[0.243s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_status_listener' with type 'ros.ament_cmake' and name 'cpp_status_listener'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_turtle_control) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_turtle_control) by extension 'ignore'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_turtle_control) by extension 'ignore_ament_install'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_turtle_control) by extensions ['colcon_pkg']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_turtle_control) by extension 'colcon_pkg'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_turtle_control) by extensions ['colcon_meta']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_turtle_control) by extension 'colcon_meta'
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_turtle_control) by extensions ['ros']
+[0.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_turtle_control) by extension 'ros'
+[0.244s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_turtle_control' with type 'ros.ament_python' and name 'py_turtle_control'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_interfaces) by extension 'ignore'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_interfaces) by extension 'ignore_ament_install'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_interfaces) by extensions ['colcon_pkg']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_interfaces) by extension 'colcon_pkg'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_interfaces) by extensions ['colcon_meta']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_interfaces) by extension 'colcon_meta'
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_interfaces) by extensions ['ros']
+[0.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_interfaces) by extension 'ros'
+[0.244s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtle_interfaces' with type 'ros.ament_cmake' and name 'turtle_interfaces'
+[0.244s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.244s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.244s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.244s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.244s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.272s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 375 installed packages in /opt/ros/humble
+[0.272s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.296s] DEBUG:colcon.colcon_core.verb:Building package 'turtle_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wxx/xwg/turtle_ws/build/turtle_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wxx/xwg/turtle_ws/install/turtle_interfaces', 'merge_install': False, 'path': '/home/wxx/xwg/turtle_ws/src/turtle_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'cpp_status_listener' build argument 'cmake_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'cpp_status_listener' build argument 'cmake_target' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'cpp_status_listener' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'cpp_status_listener' build argument 'cmake_clean_cache' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'cpp_status_listener' build argument 'cmake_clean_first' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'cpp_status_listener' build argument 'cmake_force_configure' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'cpp_status_listener' build argument 'ament_cmake_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'cpp_status_listener' build argument 'catkin_cmake_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'cpp_status_listener' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.296s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_status_listener' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wxx/xwg/turtle_ws/build/cpp_status_listener', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wxx/xwg/turtle_ws/install/cpp_status_listener', 'merge_install': False, 'path': '/home/wxx/xwg/turtle_ws/src/cpp_status_listener', 'symlink_install': False, 'test_result_base': None}
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'py_turtle_control' build argument 'cmake_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'py_turtle_control' build argument 'cmake_target' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'py_turtle_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'py_turtle_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'py_turtle_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'py_turtle_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'py_turtle_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'py_turtle_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.297s] Level 5:colcon.colcon_core.verb:set package 'py_turtle_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.297s] DEBUG:colcon.colcon_core.verb:Building package 'py_turtle_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wxx/xwg/turtle_ws/build/py_turtle_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wxx/xwg/turtle_ws/install/py_turtle_control', 'merge_install': False, 'path': '/home/wxx/xwg/turtle_ws/src/py_turtle_control', 'symlink_install': False, 'test_result_base': None}
+[0.297s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.297s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.297s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/wxx/xwg/turtle_ws/src/turtle_interfaces' with build type 'ament_cmake'
+[0.297s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/wxx/xwg/turtle_ws/src/turtle_interfaces'
+[0.301s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.301s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.301s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.305s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wxx/xwg/turtle_ws/build/turtle_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wxx/xwg/turtle_ws/src/turtle_interfaces -DCMAKE_INSTALL_PREFIX=/home/wxx/xwg/turtle_ws/install/turtle_interfaces
+[1.294s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wxx/xwg/turtle_ws/build/turtle_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wxx/xwg/turtle_ws/src/turtle_interfaces -DCMAKE_INSTALL_PREFIX=/home/wxx/xwg/turtle_ws/install/turtle_interfaces
+[1.295s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wxx/xwg/turtle_ws/build/turtle_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wxx/xwg/turtle_ws/build/turtle_interfaces -- -j32 -l32
+[2.419s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wxx/xwg/turtle_ws/build/turtle_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wxx/xwg/turtle_ws/build/turtle_interfaces -- -j32 -l32
+[2.424s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wxx/xwg/turtle_ws/build/turtle_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wxx/xwg/turtle_ws/build/turtle_interfaces
+[2.463s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_interfaces)
+[2.463s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wxx/xwg/turtle_ws/build/turtle_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wxx/xwg/turtle_ws/build/turtle_interfaces
+[2.467s] Level 1:colcon.colcon_core.environment:checking '/home/wxx/xwg/turtle_ws/install/turtle_interfaces' for CMake module files
+[2.467s] Level 1:colcon.colcon_core.environment:checking '/home/wxx/xwg/turtle_ws/install/turtle_interfaces' for CMake config files
+[2.467s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_interfaces', 'cmake_prefix_path')
+[2.467s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/hook/cmake_prefix_path.ps1'
+[2.468s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/hook/cmake_prefix_path.dsv'
+[2.468s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/hook/cmake_prefix_path.sh'
+[2.469s] Level 1:colcon.colcon_core.environment:checking '/home/wxx/xwg/turtle_ws/install/turtle_interfaces/lib'
+[2.469s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_interfaces', 'ld_library_path_lib')
+[2.469s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/hook/ld_library_path_lib.ps1'
+[2.469s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/hook/ld_library_path_lib.dsv'
+[2.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/hook/ld_library_path_lib.sh'
+[2.470s] Level 1:colcon.colcon_core.environment:checking '/home/wxx/xwg/turtle_ws/install/turtle_interfaces/bin'
+[2.470s] Level 1:colcon.colcon_core.environment:checking '/home/wxx/xwg/turtle_ws/install/turtle_interfaces/lib/pkgconfig/turtle_interfaces.pc'
+[2.470s] Level 1:colcon.colcon_core.environment:checking '/home/wxx/xwg/turtle_ws/install/turtle_interfaces/lib/python3.10/site-packages'
+[2.470s] Level 1:colcon.colcon_core.environment:checking '/home/wxx/xwg/turtle_ws/install/turtle_interfaces/bin'
+[2.470s] INFO:colcon.colcon_core.shell:Creating package script '/home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/package.ps1'
+[2.471s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/package.dsv'
+[2.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/package.sh'
+[2.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/package.bash'
+[2.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/package.zsh'
+[2.473s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/colcon-core/packages/turtle_interfaces)
+[2.473s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_interfaces)
+[2.473s] Level 1:colcon.colcon_core.environment:checking '/home/wxx/xwg/turtle_ws/install/turtle_interfaces' for CMake module files
+[2.474s] Level 1:colcon.colcon_core.environment:checking '/home/wxx/xwg/turtle_ws/install/turtle_interfaces' for CMake config files
+[2.474s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_interfaces', 'cmake_prefix_path')
+[2.474s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/hook/cmake_prefix_path.ps1'
+[2.474s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/hook/cmake_prefix_path.dsv'
+[2.474s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/hook/cmake_prefix_path.sh'
+[2.475s] Level 1:colcon.colcon_core.environment:checking '/home/wxx/xwg/turtle_ws/install/turtle_interfaces/lib'
+[2.475s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_interfaces', 'ld_library_path_lib')
+[2.475s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/hook/ld_library_path_lib.ps1'
+[2.475s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/hook/ld_library_path_lib.dsv'
+[2.475s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/hook/ld_library_path_lib.sh'
+[2.475s] Level 1:colcon.colcon_core.environment:checking '/home/wxx/xwg/turtle_ws/install/turtle_interfaces/bin'
+[2.475s] Level 1:colcon.colcon_core.environment:checking '/home/wxx/xwg/turtle_ws/install/turtle_interfaces/lib/pkgconfig/turtle_interfaces.pc'
+[2.475s] Level 1:colcon.colcon_core.environment:checking '/home/wxx/xwg/turtle_ws/install/turtle_interfaces/lib/python3.10/site-packages'
+[2.475s] Level 1:colcon.colcon_core.environment:checking '/home/wxx/xwg/turtle_ws/install/turtle_interfaces/bin'
+[2.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/package.ps1'
+[2.476s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/package.dsv'
+[2.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/package.sh'
+[2.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/package.bash'
+[2.477s] INFO:colcon.colcon_core.shell:Creating package script '/home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/package.zsh'
+[2.477s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/colcon-core/packages/turtle_interfaces)
+[2.477s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/wxx/xwg/turtle_ws/src/cpp_status_listener' with build type 'ament_cmake'
+[2.477s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/wxx/xwg/turtle_ws/src/cpp_status_listener'
+[2.477s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.477s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.479s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/wxx/xwg/turtle_ws/src/py_turtle_control' with build type 'ament_python'
+[2.479s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_turtle_control', 'ament_prefix_path')
+[2.479s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wxx/xwg/turtle_ws/install/py_turtle_control/share/py_turtle_control/hook/ament_prefix_path.ps1'
+[2.479s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wxx/xwg/turtle_ws/install/py_turtle_control/share/py_turtle_control/hook/ament_prefix_path.dsv'
+[2.479s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wxx/xwg/turtle_ws/install/py_turtle_control/share/py_turtle_control/hook/ament_prefix_path.sh'
+[2.480s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.480s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.483s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wxx/xwg/turtle_ws/build/cpp_status_listener': AMENT_PREFIX_PATH=/home/wxx/xwg/turtle_ws/install/turtle_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wxx/xwg/turtle_ws/install/turtle_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/wxx/xwg/turtle_ws/install/turtle_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wxx/xwg/turtle_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/wxx/xwg/turtle_ws/src/cpp_status_listener -DCMAKE_INSTALL_PREFIX=/home/wxx/xwg/turtle_ws/install/cpp_status_listener
+[2.606s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/wxx/xwg/turtle_ws/src/py_turtle_control'
+[2.606s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.606s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.847s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: install_headers, compile_catalog, bdist_wheel, update_catalog, upload_docs, setopt, dist_info, bdist_egg, bdist, init_catalog, install_data, build_clib, extract_messages, check, rotate, sdist, clean, bdist_dumb, bdist_rpm, symlink_data, register, saveopts, build, develop, egg_info, build_py, install, easy_install, install_egg_info, install_lib, install_scripts, upload, build_ext, alias, test, build_scripts
+[2.849s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wxx/xwg/turtle_ws/src/py_turtle_control': AMENT_PREFIX_PATH=/home/wxx/xwg/turtle_ws/install/turtle_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wxx/xwg/turtle_ws/install/turtle_interfaces LD_LIBRARY_PATH=/home/wxx/xwg/turtle_ws/install/turtle_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wxx/xwg/turtle_ws/build/py_turtle_control/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wxx/xwg/turtle_ws/install/py_turtle_control/lib/python3.10/site-packages:/home/wxx/xwg/turtle_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_turtle_control build --build-base /home/wxx/xwg/turtle_ws/build/py_turtle_control/build install --record /home/wxx/xwg/turtle_ws/build/py_turtle_control/install.log --install-scripts $base/lib/py_turtle_control --single-version-externally-managed install_data
+[2.987s] Level 1:colcon.colcon_core.environment:checking '/home/wxx/xwg/turtle_ws/install/py_turtle_control' for CMake module files
+[2.988s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wxx/xwg/turtle_ws/src/py_turtle_control' returned '0': AMENT_PREFIX_PATH=/home/wxx/xwg/turtle_ws/install/turtle_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wxx/xwg/turtle_ws/install/turtle_interfaces LD_LIBRARY_PATH=/home/wxx/xwg/turtle_ws/install/turtle_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wxx/xwg/turtle_ws/build/py_turtle_control/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wxx/xwg/turtle_ws/install/py_turtle_control/lib/python3.10/site-packages:/home/wxx/xwg/turtle_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_turtle_control build --build-base /home/wxx/xwg/turtle_ws/build/py_turtle_control/build install --record /home/wxx/xwg/turtle_ws/build/py_turtle_control/install.log --install-scripts $base/lib/py_turtle_control --single-version-externally-managed install_data
+[2.988s] Level 1:colcon.colcon_core.environment:checking '/home/wxx/xwg/turtle_ws/install/py_turtle_control' for CMake config files
+[2.988s] Level 1:colcon.colcon_core.environment:checking '/home/wxx/xwg/turtle_ws/install/py_turtle_control/lib'
+[2.988s] Level 1:colcon.colcon_core.environment:checking '/home/wxx/xwg/turtle_ws/install/py_turtle_control/bin'
+[2.988s] Level 1:colcon.colcon_core.environment:checking '/home/wxx/xwg/turtle_ws/install/py_turtle_control/lib/pkgconfig/py_turtle_control.pc'
+[2.988s] Level 1:colcon.colcon_core.environment:checking '/home/wxx/xwg/turtle_ws/install/py_turtle_control/lib/python3.10/site-packages'
+[2.988s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_turtle_control', 'pythonpath')
+[2.988s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wxx/xwg/turtle_ws/install/py_turtle_control/share/py_turtle_control/hook/pythonpath.ps1'
+[2.989s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wxx/xwg/turtle_ws/install/py_turtle_control/share/py_turtle_control/hook/pythonpath.dsv'
+[2.989s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wxx/xwg/turtle_ws/install/py_turtle_control/share/py_turtle_control/hook/pythonpath.sh'
+[2.989s] Level 1:colcon.colcon_core.environment:checking '/home/wxx/xwg/turtle_ws/install/py_turtle_control/bin'
+[2.989s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_turtle_control)
+[2.989s] INFO:colcon.colcon_core.shell:Creating package script '/home/wxx/xwg/turtle_ws/install/py_turtle_control/share/py_turtle_control/package.ps1'
+[2.990s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wxx/xwg/turtle_ws/install/py_turtle_control/share/py_turtle_control/package.dsv'
+[2.990s] INFO:colcon.colcon_core.shell:Creating package script '/home/wxx/xwg/turtle_ws/install/py_turtle_control/share/py_turtle_control/package.sh'
+[2.990s] INFO:colcon.colcon_core.shell:Creating package script '/home/wxx/xwg/turtle_ws/install/py_turtle_control/share/py_turtle_control/package.bash'
+[2.990s] INFO:colcon.colcon_core.shell:Creating package script '/home/wxx/xwg/turtle_ws/install/py_turtle_control/share/py_turtle_control/package.zsh'
+[2.990s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wxx/xwg/turtle_ws/install/py_turtle_control/share/colcon-core/packages/py_turtle_control)
+[3.089s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wxx/xwg/turtle_ws/build/cpp_status_listener' returned '0': AMENT_PREFIX_PATH=/home/wxx/xwg/turtle_ws/install/turtle_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wxx/xwg/turtle_ws/install/turtle_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/wxx/xwg/turtle_ws/install/turtle_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wxx/xwg/turtle_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/wxx/xwg/turtle_ws/src/cpp_status_listener -DCMAKE_INSTALL_PREFIX=/home/wxx/xwg/turtle_ws/install/cpp_status_listener
+[3.090s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wxx/xwg/turtle_ws/build/cpp_status_listener': AMENT_PREFIX_PATH=/home/wxx/xwg/turtle_ws/install/turtle_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wxx/xwg/turtle_ws/install/turtle_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/wxx/xwg/turtle_ws/install/turtle_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wxx/xwg/turtle_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/wxx/xwg/turtle_ws/build/cpp_status_listener -- -j32 -l32
+[7.543s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wxx/xwg/turtle_ws/build/cpp_status_listener' returned '0': AMENT_PREFIX_PATH=/home/wxx/xwg/turtle_ws/install/turtle_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wxx/xwg/turtle_ws/install/turtle_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/wxx/xwg/turtle_ws/install/turtle_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wxx/xwg/turtle_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/wxx/xwg/turtle_ws/build/cpp_status_listener -- -j32 -l32
+[7.544s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wxx/xwg/turtle_ws/build/cpp_status_listener': AMENT_PREFIX_PATH=/home/wxx/xwg/turtle_ws/install/turtle_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wxx/xwg/turtle_ws/install/turtle_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/wxx/xwg/turtle_ws/install/turtle_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wxx/xwg/turtle_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/wxx/xwg/turtle_ws/build/cpp_status_listener
+[7.553s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_status_listener)
+[7.554s] Level 1:colcon.colcon_core.environment:checking '/home/wxx/xwg/turtle_ws/install/cpp_status_listener' for CMake module files
+[7.554s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wxx/xwg/turtle_ws/build/cpp_status_listener' returned '0': AMENT_PREFIX_PATH=/home/wxx/xwg/turtle_ws/install/turtle_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wxx/xwg/turtle_ws/install/turtle_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/wxx/xwg/turtle_ws/install/turtle_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wxx/xwg/turtle_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/wxx/xwg/turtle_ws/build/cpp_status_listener
+[7.554s] Level 1:colcon.colcon_core.environment:checking '/home/wxx/xwg/turtle_ws/install/cpp_status_listener' for CMake config files
+[7.554s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_status_listener', 'cmake_prefix_path')
+[7.554s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wxx/xwg/turtle_ws/install/cpp_status_listener/share/cpp_status_listener/hook/cmake_prefix_path.ps1'
+[7.554s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wxx/xwg/turtle_ws/install/cpp_status_listener/share/cpp_status_listener/hook/cmake_prefix_path.dsv'
+[7.555s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wxx/xwg/turtle_ws/install/cpp_status_listener/share/cpp_status_listener/hook/cmake_prefix_path.sh'
+[7.555s] Level 1:colcon.colcon_core.environment:checking '/home/wxx/xwg/turtle_ws/install/cpp_status_listener/lib'
+[7.555s] Level 1:colcon.colcon_core.environment:checking '/home/wxx/xwg/turtle_ws/install/cpp_status_listener/bin'
+[7.555s] Level 1:colcon.colcon_core.environment:checking '/home/wxx/xwg/turtle_ws/install/cpp_status_listener/lib/pkgconfig/cpp_status_listener.pc'
+[7.555s] Level 1:colcon.colcon_core.environment:checking '/home/wxx/xwg/turtle_ws/install/cpp_status_listener/lib/python3.10/site-packages'
+[7.555s] Level 1:colcon.colcon_core.environment:checking '/home/wxx/xwg/turtle_ws/install/cpp_status_listener/bin'
+[7.555s] INFO:colcon.colcon_core.shell:Creating package script '/home/wxx/xwg/turtle_ws/install/cpp_status_listener/share/cpp_status_listener/package.ps1'
+[7.556s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wxx/xwg/turtle_ws/install/cpp_status_listener/share/cpp_status_listener/package.dsv'
+[7.556s] INFO:colcon.colcon_core.shell:Creating package script '/home/wxx/xwg/turtle_ws/install/cpp_status_listener/share/cpp_status_listener/package.sh'
+[7.556s] INFO:colcon.colcon_core.shell:Creating package script '/home/wxx/xwg/turtle_ws/install/cpp_status_listener/share/cpp_status_listener/package.bash'
+[7.556s] INFO:colcon.colcon_core.shell:Creating package script '/home/wxx/xwg/turtle_ws/install/cpp_status_listener/share/cpp_status_listener/package.zsh'
+[7.556s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wxx/xwg/turtle_ws/install/cpp_status_listener/share/colcon-core/packages/cpp_status_listener)
+[7.556s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_status_listener)
+[7.557s] Level 1:colcon.colcon_core.environment:checking '/home/wxx/xwg/turtle_ws/install/cpp_status_listener' for CMake module files
+[7.557s] Level 1:colcon.colcon_core.environment:checking '/home/wxx/xwg/turtle_ws/install/cpp_status_listener' for CMake config files
+[7.557s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_status_listener', 'cmake_prefix_path')
+[7.557s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wxx/xwg/turtle_ws/install/cpp_status_listener/share/cpp_status_listener/hook/cmake_prefix_path.ps1'
+[7.557s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wxx/xwg/turtle_ws/install/cpp_status_listener/share/cpp_status_listener/hook/cmake_prefix_path.dsv'
+[7.557s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wxx/xwg/turtle_ws/install/cpp_status_listener/share/cpp_status_listener/hook/cmake_prefix_path.sh'
+[7.558s] Level 1:colcon.colcon_core.environment:checking '/home/wxx/xwg/turtle_ws/install/cpp_status_listener/lib'
+[7.558s] Level 1:colcon.colcon_core.environment:checking '/home/wxx/xwg/turtle_ws/install/cpp_status_listener/bin'
+[7.558s] Level 1:colcon.colcon_core.environment:checking '/home/wxx/xwg/turtle_ws/install/cpp_status_listener/lib/pkgconfig/cpp_status_listener.pc'
+[7.558s] Level 1:colcon.colcon_core.environment:checking '/home/wxx/xwg/turtle_ws/install/cpp_status_listener/lib/python3.10/site-packages'
+[7.558s] Level 1:colcon.colcon_core.environment:checking '/home/wxx/xwg/turtle_ws/install/cpp_status_listener/bin'
+[7.558s] INFO:colcon.colcon_core.shell:Creating package script '/home/wxx/xwg/turtle_ws/install/cpp_status_listener/share/cpp_status_listener/package.ps1'
+[7.558s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wxx/xwg/turtle_ws/install/cpp_status_listener/share/cpp_status_listener/package.dsv'
+[7.558s] INFO:colcon.colcon_core.shell:Creating package script '/home/wxx/xwg/turtle_ws/install/cpp_status_listener/share/cpp_status_listener/package.sh'
+[7.559s] INFO:colcon.colcon_core.shell:Creating package script '/home/wxx/xwg/turtle_ws/install/cpp_status_listener/share/cpp_status_listener/package.bash'
+[7.559s] INFO:colcon.colcon_core.shell:Creating package script '/home/wxx/xwg/turtle_ws/install/cpp_status_listener/share/cpp_status_listener/package.zsh'
+[7.559s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wxx/xwg/turtle_ws/install/cpp_status_listener/share/colcon-core/packages/cpp_status_listener)
+[7.559s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.559s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.559s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.559s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.563s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.563s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.563s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.571s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.571s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wxx/xwg/turtle_ws/install/local_setup.ps1'
+[7.572s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/wxx/xwg/turtle_ws/install/_local_setup_util_ps1.py'
+[7.573s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wxx/xwg/turtle_ws/install/setup.ps1'
+[7.573s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wxx/xwg/turtle_ws/install/local_setup.sh'
+[7.574s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/wxx/xwg/turtle_ws/install/_local_setup_util_sh.py'
+[7.574s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wxx/xwg/turtle_ws/install/setup.sh'
+[7.574s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wxx/xwg/turtle_ws/install/local_setup.bash'
+[7.575s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wxx/xwg/turtle_ws/install/setup.bash'
+[7.575s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wxx/xwg/turtle_ws/install/local_setup.zsh'
+[7.576s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wxx/xwg/turtle_ws/install/setup.zsh'

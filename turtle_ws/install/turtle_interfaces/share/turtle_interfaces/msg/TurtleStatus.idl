@@ -1,0 +1,44 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from turtle_interfaces/msg/TurtleStatus.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module turtle_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "海龟状态报告（我们自己定义的数据格式）" "\n"
+      "规则：文件名首字母大写驼峰 + .msg；一行一个字段；# 是注释" "\n"
+      "这个文件会被 rosidl 自动翻译成 Python 类和 C++ 头文件，" "\n"
+      "所以 Python 和 C++ 能\"说同一种语言\"")
+    struct TurtleStatus {
+      @verbatim (language="comment", text=
+        "海龟名字")
+      string turtle_name;
+
+      @verbatim (language="comment", text=
+        "x 坐标")
+      double x;
+
+      @verbatim (language="comment", text=
+        "y 坐标")
+      double y;
+
+      @verbatim (language="comment", text=
+        "朝向")
+      double theta;
+
+      @verbatim (language="comment", text=
+        "当前前进速度")
+      double linear_speed;
+
+      @verbatim (language="comment", text=
+        "当前转弯速度")
+      double angular_speed;
+
+      @verbatim (language="comment", text=
+        "时间戳")
+      builtin_interfaces::msg::Time stamp;
+    };
+  };
+};

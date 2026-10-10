@@ -1,0 +1,36 @@
+running egg_info
+creating ../../build/py_turtle_control/py_turtle_control.egg-info
+writing ../../build/py_turtle_control/py_turtle_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/py_turtle_control/py_turtle_control.egg-info/dependency_links.txt
+writing entry points to ../../build/py_turtle_control/py_turtle_control.egg-info/entry_points.txt
+writing requirements to ../../build/py_turtle_control/py_turtle_control.egg-info/requires.txt
+writing top-level names to ../../build/py_turtle_control/py_turtle_control.egg-info/top_level.txt
+writing manifest file '../../build/py_turtle_control/py_turtle_control.egg-info/SOURCES.txt'
+reading manifest file '../../build/py_turtle_control/py_turtle_control.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/py_turtle_control/py_turtle_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/wxx/xwg/turtle_ws/build/py_turtle_control/build
+creating /home/wxx/xwg/turtle_ws/build/py_turtle_control/build/lib
+creating /home/wxx/xwg/turtle_ws/build/py_turtle_control/build/lib/py_turtle_control
+copying py_turtle_control/__init__.py -> /home/wxx/xwg/turtle_ws/build/py_turtle_control/build/lib/py_turtle_control
+copying py_turtle_control/turtle_circle.py -> /home/wxx/xwg/turtle_ws/build/py_turtle_control/build/lib/py_turtle_control
+running install
+running install_lib
+creating /home/wxx/xwg/turtle_ws/install/py_turtle_control/lib/python3.10/site-packages/py_turtle_control
+copying /home/wxx/xwg/turtle_ws/build/py_turtle_control/build/lib/py_turtle_control/__init__.py -> /home/wxx/xwg/turtle_ws/install/py_turtle_control/lib/python3.10/site-packages/py_turtle_control
+copying /home/wxx/xwg/turtle_ws/build/py_turtle_control/build/lib/py_turtle_control/turtle_circle.py -> /home/wxx/xwg/turtle_ws/install/py_turtle_control/lib/python3.10/site-packages/py_turtle_control
+byte-compiling /home/wxx/xwg/turtle_ws/install/py_turtle_control/lib/python3.10/site-packages/py_turtle_control/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/wxx/xwg/turtle_ws/install/py_turtle_control/lib/python3.10/site-packages/py_turtle_control/turtle_circle.py to turtle_circle.cpython-310.pyc
+running install_data
+creating /home/wxx/xwg/turtle_ws/install/py_turtle_control/share/ament_index
+creating /home/wxx/xwg/turtle_ws/install/py_turtle_control/share/ament_index/resource_index
+creating /home/wxx/xwg/turtle_ws/install/py_turtle_control/share/ament_index/resource_index/packages
+copying resource/py_turtle_control -> /home/wxx/xwg/turtle_ws/install/py_turtle_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/wxx/xwg/turtle_ws/install/py_turtle_control/share/py_turtle_control
+running install_egg_info
+Copying ../../build/py_turtle_control/py_turtle_control.egg-info to /home/wxx/xwg/turtle_ws/install/py_turtle_control/lib/python3.10/site-packages/py_turtle_control-0.0.0-py3.10.egg-info
+running install_scripts
+Installing turtle_circle script to /home/wxx/xwg/turtle_ws/install/py_turtle_control/lib/py_turtle_control
+writing list of installed files to '/home/wxx/xwg/turtle_ws/build/py_turtle_control/install.log'

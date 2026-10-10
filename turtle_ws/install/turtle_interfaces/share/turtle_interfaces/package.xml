@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<package format="3">
+  <!-- 标准XML文件头，ROS2专用格式3 -->
+  <name>turtle_interfaces</name>
+  <!-- 包名，需与CMakeLists.txt中project()一致 -->
+
+  <version>0.0.0</version>
+  <!-- 版本号：开发中0.0.0，正式版1.0.0 -->
+
+  <description>自定义话题接口：海龟状态</description>
+  <!-- 包用途说明，ros2 pkg list时显示 -->
+
+  <maintainer email="you@example.com">you</maintainer>
+  <!-- 维护者信息，email必填 -->
+
+  <license>Apache-2.0</license>
+  <!-- 开源许可证 -->
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
+  <!-- 接口包身份标识，让ros2 interface能找到.msg -->
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <!-- 构建工具。依赖类型：buildtool_depend构建工具，depend编译+运行均需 -->
+
+  <depend>builtin_interfaces</depend>
+  <!-- 因TurtleStatus.msg用到Time类型 -->
+
+  <depend>rosidl_default_generators</depend>
+  <!-- msg生成C++/Python代码的生成器 -->
+
+  <depend>rosidl_default_runtime</depend>
+  <!-- 运行时底层库依赖 -->
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
