@@ -6,6 +6,7 @@
 
 ---
 ## 这个项目的前半部分话题的详细解读教程请看这个博客：[xwg_readme_8](https://sk233333.github.io/posts/my-first-post/)
+## 后半部分服务+tf工具的详细解读教程请看这个博客：[xwg_readme_9](https://sk233333.github.io/posts/xwg_service_launch/)
 
 ## 一、这个项目在做什么
 
