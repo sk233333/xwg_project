@@ -1,0 +1,37 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from turtle_interfaces/srv/Patrol.srv
+// generated code does not contain a copyright notice
+
+
+module turtle_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "============================================" "\n"
+      "巡逻服务接口" "\n"
+      ".srv 文件用 --- 分成上下两部分：" "\n"
+      "  上面 = 请求（客户端 → 服务端）" "\n"
+      "  下面 = 响应（服务端 → 客户端）" "\n"
+      "============================================")
+    struct Patrol_Request {
+      @verbatim (language="comment", text=
+        "---- 请求：请巡逻到这个坐标 ----" "\n"
+        "目标 x")
+      double target_x;
+
+      @verbatim (language="comment", text=
+        "目标 y")
+      double target_y;
+    };
+    @verbatim (language="comment", text=
+      "---- 响应：任务结果 ----")
+    struct Patrol_Response {
+      @verbatim (language="comment", text=
+        "是否成功接受")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "文字说明")
+      string message;
+    };
+  };
+};

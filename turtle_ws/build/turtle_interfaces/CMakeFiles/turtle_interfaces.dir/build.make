@@ -67,6 +67,9 @@ include CMakeFiles/turtle_interfaces.dir/compiler_depend.make
 include CMakeFiles/turtle_interfaces.dir/progress.make
 
 CMakeFiles/turtle_interfaces: /home/wxx/xwg/turtle_ws/src/turtle_interfaces/msg/TurtleStatus.msg
+CMakeFiles/turtle_interfaces: /home/wxx/xwg/turtle_ws/src/turtle_interfaces/srv/Patrol.srv
+CMakeFiles/turtle_interfaces: rosidl_cmake/srv/Patrol_Request.msg
+CMakeFiles/turtle_interfaces: rosidl_cmake/srv/Patrol_Response.msg
 CMakeFiles/turtle_interfaces: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
 CMakeFiles/turtle_interfaces: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
 

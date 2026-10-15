@@ -1,6 +1,7 @@
 /home/wxx/xwg/turtle_ws/build/cpp_status_listener/CMakeFiles/uninstall.dir
 /home/wxx/xwg/turtle_ws/build/cpp_status_listener/CMakeFiles/cpp_status_listener_uninstall.dir
 /home/wxx/xwg/turtle_ws/build/cpp_status_listener/CMakeFiles/status_listener.dir
+/home/wxx/xwg/turtle_ws/build/cpp_status_listener/CMakeFiles/patrol_client.dir
 /home/wxx/xwg/turtle_ws/build/cpp_status_listener/CMakeFiles/test.dir
 /home/wxx/xwg/turtle_ws/build/cpp_status_listener/CMakeFiles/edit_cache.dir
 /home/wxx/xwg/turtle_ws/build/cpp_status_listener/CMakeFiles/rebuild_cache.dir

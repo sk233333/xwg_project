@@ -9,7 +9,11 @@ setup.py
 ../../build/py_turtle_control/py_turtle_control.egg-info/requires.txt
 ../../build/py_turtle_control/py_turtle_control.egg-info/top_level.txt
 ../../build/py_turtle_control/py_turtle_control.egg-info/zip-safe
+launch/turtles_patrol.launch.py
 py_turtle_control/__init__.py
+py_turtle_control/patrol_server.py
+py_turtle_control/spawn_turtle.py
+py_turtle_control/tf_broadcaster.py
 py_turtle_control/turtle_circle.py
 resource/py_turtle_control
 test/test_copyright.py

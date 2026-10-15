@@ -3,7 +3,8 @@
   "output_dir": "/home/wxx/xwg/turtle_ws/build/turtle_interfaces/rosidl_typesupport_introspection_c/turtle_interfaces",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource",
   "idl_tuples": [
-    "/home/wxx/xwg/turtle_ws/build/turtle_interfaces/rosidl_adapter/turtle_interfaces:msg/TurtleStatus.idl"
+    "/home/wxx/xwg/turtle_ws/build/turtle_interfaces/rosidl_adapter/turtle_interfaces:msg/TurtleStatus.idl",
+    "/home/wxx/xwg/turtle_ws/build/turtle_interfaces/rosidl_adapter/turtle_interfaces:srv/Patrol.idl"
   ],
   "ros_interface_dependencies": [
     "builtin_interfaces:/opt/ros/humble/share/builtin_interfaces/msg/Duration.idl",
@@ -19,6 +20,7 @@
     "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em",
     "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em",
     "/home/wxx/xwg/turtle_ws/build/turtle_interfaces/rosidl_adapter/turtle_interfaces/msg/TurtleStatus.idl",
+    "/home/wxx/xwg/turtle_ws/build/turtle_interfaces/rosidl_adapter/turtle_interfaces/srv/Patrol.idl",
     "/opt/ros/humble/share/builtin_interfaces/msg/Duration.idl",
     "/opt/ros/humble/share/builtin_interfaces/msg/Time.idl"
   ]

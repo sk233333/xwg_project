@@ -86,6 +86,7 @@ rosidl_generator_rs/turtle_interfaces/rust/src/lib.rs: /opt/ros/humble/share/ros
 rosidl_generator_rs/turtle_interfaces/rust/src/lib.rs: /opt/ros/humble/share/rosidl_generator_rs/resource/templates/srv_idiomatic.rs.em
 rosidl_generator_rs/turtle_interfaces/rust/src/lib.rs: /opt/ros/humble/share/rosidl_generator_rs/resource/templates/srv_rmw.rs.em
 rosidl_generator_rs/turtle_interfaces/rust/src/lib.rs: rosidl_adapter/turtle_interfaces/msg/TurtleStatus.idl
+rosidl_generator_rs/turtle_interfaces/rust/src/lib.rs: rosidl_adapter/turtle_interfaces/srv/Patrol.idl
 rosidl_generator_rs/turtle_interfaces/rust/src/lib.rs: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_rs/turtle_interfaces/rust/src/lib.rs: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/wxx/xwg/turtle_ws/build/turtle_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Rust code for ROS interfaces"

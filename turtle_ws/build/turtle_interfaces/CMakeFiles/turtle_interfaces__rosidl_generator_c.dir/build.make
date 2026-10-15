@@ -83,6 +83,7 @@ rosidl_generator_c/turtle_interfaces/msg/turtle_status.h: /opt/ros/humble/share/
 rosidl_generator_c/turtle_interfaces/msg/turtle_status.h: /opt/ros/humble/share/rosidl_generator_c/resource/msg__type_support.h.em
 rosidl_generator_c/turtle_interfaces/msg/turtle_status.h: /opt/ros/humble/share/rosidl_generator_c/resource/srv__type_support.h.em
 rosidl_generator_c/turtle_interfaces/msg/turtle_status.h: rosidl_adapter/turtle_interfaces/msg/TurtleStatus.idl
+rosidl_generator_c/turtle_interfaces/msg/turtle_status.h: rosidl_adapter/turtle_interfaces/srv/Patrol.idl
 rosidl_generator_c/turtle_interfaces/msg/turtle_status.h: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_c/turtle_interfaces/msg/turtle_status.h: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/wxx/xwg/turtle_ws/build/turtle_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
@@ -97,8 +98,23 @@ rosidl_generator_c/turtle_interfaces/msg/detail/turtle_status__struct.h: rosidl_
 rosidl_generator_c/turtle_interfaces/msg/detail/turtle_status__type_support.h: rosidl_generator_c/turtle_interfaces/msg/turtle_status.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/turtle_interfaces/msg/detail/turtle_status__type_support.h
 
+rosidl_generator_c/turtle_interfaces/srv/patrol.h: rosidl_generator_c/turtle_interfaces/msg/turtle_status.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/turtle_interfaces/srv/patrol.h
+
+rosidl_generator_c/turtle_interfaces/srv/detail/patrol__functions.h: rosidl_generator_c/turtle_interfaces/msg/turtle_status.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/turtle_interfaces/srv/detail/patrol__functions.h
+
+rosidl_generator_c/turtle_interfaces/srv/detail/patrol__struct.h: rosidl_generator_c/turtle_interfaces/msg/turtle_status.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/turtle_interfaces/srv/detail/patrol__struct.h
+
+rosidl_generator_c/turtle_interfaces/srv/detail/patrol__type_support.h: rosidl_generator_c/turtle_interfaces/msg/turtle_status.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/turtle_interfaces/srv/detail/patrol__type_support.h
+
 rosidl_generator_c/turtle_interfaces/msg/detail/turtle_status__functions.c: rosidl_generator_c/turtle_interfaces/msg/turtle_status.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/turtle_interfaces/msg/detail/turtle_status__functions.c
+
+rosidl_generator_c/turtle_interfaces/srv/detail/patrol__functions.c: rosidl_generator_c/turtle_interfaces/msg/turtle_status.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/turtle_interfaces/srv/detail/patrol__functions.c
 
 CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/msg/detail/turtle_status__functions.c.o: CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/flags.make
 CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/msg/detail/turtle_status__functions.c.o: rosidl_generator_c/turtle_interfaces/msg/detail/turtle_status__functions.c
@@ -114,20 +130,36 @@ CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_i
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/msg/detail/turtle_status__functions.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wxx/xwg/turtle_ws/build/turtle_interfaces/rosidl_generator_c/turtle_interfaces/msg/detail/turtle_status__functions.c -o CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/msg/detail/turtle_status__functions.c.s
 
+CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/srv/detail/patrol__functions.c.o: CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/srv/detail/patrol__functions.c.o: rosidl_generator_c/turtle_interfaces/srv/detail/patrol__functions.c
+CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/srv/detail/patrol__functions.c.o: CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wxx/xwg/turtle_ws/build/turtle_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/srv/detail/patrol__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/srv/detail/patrol__functions.c.o -MF CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/srv/detail/patrol__functions.c.o.d -o CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/srv/detail/patrol__functions.c.o -c /home/wxx/xwg/turtle_ws/build/turtle_interfaces/rosidl_generator_c/turtle_interfaces/srv/detail/patrol__functions.c
+
+CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/srv/detail/patrol__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/srv/detail/patrol__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wxx/xwg/turtle_ws/build/turtle_interfaces/rosidl_generator_c/turtle_interfaces/srv/detail/patrol__functions.c > CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/srv/detail/patrol__functions.c.i
+
+CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/srv/detail/patrol__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/srv/detail/patrol__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wxx/xwg/turtle_ws/build/turtle_interfaces/rosidl_generator_c/turtle_interfaces/srv/detail/patrol__functions.c -o CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/srv/detail/patrol__functions.c.s
+
 # Object files for target turtle_interfaces__rosidl_generator_c
 turtle_interfaces__rosidl_generator_c_OBJECTS = \
-"CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/msg/detail/turtle_status__functions.c.o"
+"CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/msg/detail/turtle_status__functions.c.o" \
+"CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/srv/detail/patrol__functions.c.o"
 
 # External object files for target turtle_interfaces__rosidl_generator_c
 turtle_interfaces__rosidl_generator_c_EXTERNAL_OBJECTS =
 
 libturtle_interfaces__rosidl_generator_c.so: CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/msg/detail/turtle_status__functions.c.o
+libturtle_interfaces__rosidl_generator_c.so: CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/srv/detail/patrol__functions.c.o
 libturtle_interfaces__rosidl_generator_c.so: CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/build.make
 libturtle_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
 libturtle_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libturtle_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/librcutils.so
 libturtle_interfaces__rosidl_generator_c.so: CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wxx/xwg/turtle_ws/build/turtle_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library libturtle_interfaces__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wxx/xwg/turtle_ws/build/turtle_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library libturtle_interfaces__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -143,6 +175,11 @@ CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/
 CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/turtle_interfaces/msg/detail/turtle_status__struct.h
 CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/turtle_interfaces/msg/detail/turtle_status__type_support.h
 CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/turtle_interfaces/msg/turtle_status.h
+CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/turtle_interfaces/srv/detail/patrol__functions.c
+CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/turtle_interfaces/srv/detail/patrol__functions.h
+CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/turtle_interfaces/srv/detail/patrol__struct.h
+CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/turtle_interfaces/srv/detail/patrol__type_support.h
+CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/turtle_interfaces/srv/patrol.h
 	cd /home/wxx/xwg/turtle_ws/build/turtle_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wxx/xwg/turtle_ws/src/turtle_interfaces /home/wxx/xwg/turtle_ws/src/turtle_interfaces /home/wxx/xwg/turtle_ws/build/turtle_interfaces /home/wxx/xwg/turtle_ws/build/turtle_interfaces /home/wxx/xwg/turtle_ws/build/turtle_interfaces/CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/depend
 

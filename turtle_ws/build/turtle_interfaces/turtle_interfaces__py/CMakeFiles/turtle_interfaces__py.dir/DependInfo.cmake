@@ -17,6 +17,9 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/wxx/xwg/turtle_ws/build/turtle_interfaces/rosidl_generator_py/turtle_interfaces/msg/__init__.py" "/home/wxx/xwg/turtle_ws/build/turtle_interfaces/rosidl_generator_py/turtle_interfaces/_turtle_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/wxx/xwg/turtle_ws/build/turtle_interfaces/rosidl_generator_py/turtle_interfaces/msg/_turtle_status.py" "/home/wxx/xwg/turtle_ws/build/turtle_interfaces/rosidl_generator_py/turtle_interfaces/_turtle_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/wxx/xwg/turtle_ws/build/turtle_interfaces/rosidl_generator_py/turtle_interfaces/msg/_turtle_status_s.c" "/home/wxx/xwg/turtle_ws/build/turtle_interfaces/rosidl_generator_py/turtle_interfaces/_turtle_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/wxx/xwg/turtle_ws/build/turtle_interfaces/rosidl_generator_py/turtle_interfaces/srv/__init__.py" "/home/wxx/xwg/turtle_ws/build/turtle_interfaces/rosidl_generator_py/turtle_interfaces/_turtle_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/wxx/xwg/turtle_ws/build/turtle_interfaces/rosidl_generator_py/turtle_interfaces/srv/_patrol.py" "/home/wxx/xwg/turtle_ws/build/turtle_interfaces/rosidl_generator_py/turtle_interfaces/_turtle_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/wxx/xwg/turtle_ws/build/turtle_interfaces/rosidl_generator_py/turtle_interfaces/srv/_patrol_s.c" "/home/wxx/xwg/turtle_ws/build/turtle_interfaces/rosidl_generator_py/turtle_interfaces/_turtle_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   )
 
 

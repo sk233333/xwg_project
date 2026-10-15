@@ -207,4 +207,7 @@ CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosi
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
- /home/wxx/xwg/turtle_ws/build/turtle_interfaces/rosidl_generator_c/turtle_interfaces/msg/detail/turtle_status__functions.h
+ /home/wxx/xwg/turtle_ws/build/turtle_interfaces/rosidl_generator_c/turtle_interfaces/msg/detail/turtle_status__functions.h \
+ /home/wxx/xwg/turtle_ws/build/turtle_interfaces/rosidl_generator_c/turtle_interfaces/srv/detail/patrol__type_support.h \
+ /home/wxx/xwg/turtle_ws/build/turtle_interfaces/rosidl_generator_c/turtle_interfaces/srv/detail/patrol__struct.h \
+ /home/wxx/xwg/turtle_ws/build/turtle_interfaces/rosidl_generator_c/turtle_interfaces/srv/detail/patrol__functions.h

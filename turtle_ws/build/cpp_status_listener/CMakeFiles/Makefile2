@@ -64,6 +64,7 @@ CMAKE_BINARY_DIR = /home/wxx/xwg/turtle_ws/build/cpp_status_listener
 
 # The main recursive "all" target.
 all: CMakeFiles/status_listener.dir/all
+all: CMakeFiles/patrol_client.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -74,6 +75,7 @@ preinstall:
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/cpp_status_listener_uninstall.dir/clean
 clean: CMakeFiles/status_listener.dir/clean
+clean: CMakeFiles/patrol_client.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -135,7 +137,7 @@ CMakeFiles/cpp_status_listener_uninstall.dir/clean:
 CMakeFiles/status_listener.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/status_listener.dir/build.make CMakeFiles/status_listener.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/status_listener.dir/build.make CMakeFiles/status_listener.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wxx/xwg/turtle_ws/build/cpp_status_listener/CMakeFiles --progress-num=1,2 "Built target status_listener"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wxx/xwg/turtle_ws/build/cpp_status_listener/CMakeFiles --progress-num=3,4 "Built target status_listener"
 .PHONY : CMakeFiles/status_listener.dir/all
 
 # Build rule for subdir invocation for target.
@@ -153,6 +155,32 @@ status_listener: CMakeFiles/status_listener.dir/rule
 CMakeFiles/status_listener.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/status_listener.dir/build.make CMakeFiles/status_listener.dir/clean
 .PHONY : CMakeFiles/status_listener.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/patrol_client.dir
+
+# All Build rule for target.
+CMakeFiles/patrol_client.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/patrol_client.dir/build.make CMakeFiles/patrol_client.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/patrol_client.dir/build.make CMakeFiles/patrol_client.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wxx/xwg/turtle_ws/build/cpp_status_listener/CMakeFiles --progress-num=1,2 "Built target patrol_client"
+.PHONY : CMakeFiles/patrol_client.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/patrol_client.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wxx/xwg/turtle_ws/build/cpp_status_listener/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/patrol_client.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wxx/xwg/turtle_ws/build/cpp_status_listener/CMakeFiles 0
+.PHONY : CMakeFiles/patrol_client.dir/rule
+
+# Convenience name for target.
+patrol_client: CMakeFiles/patrol_client.dir/rule
+.PHONY : patrol_client
+
+# clean rule for target.
+CMakeFiles/patrol_client.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/patrol_client.dir/build.make CMakeFiles/patrol_client.dir/clean
+.PHONY : CMakeFiles/patrol_client.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -9,3 +9,10 @@ pub mod msg {
     pub mod rmw;
 }
 
+#[path = "srv.rs"]
+mod srv_idiomatic;
+pub mod srv {
+    pub use super::srv_idiomatic::*;
+    pub mod rmw;
+}
+

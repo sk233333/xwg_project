@@ -78,13 +78,20 @@ rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/turtle_status__r
 rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/turtle_status__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em
 rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/turtle_status__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em
 rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/turtle_status__rosidl_typesupport_introspection_c.h: rosidl_adapter/turtle_interfaces/msg/TurtleStatus.idl
+rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/turtle_status__rosidl_typesupport_introspection_c.h: rosidl_adapter/turtle_interfaces/srv/Patrol.idl
 rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/turtle_status__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
 rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/turtle_status__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/wxx/xwg/turtle_ws/build/turtle_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C introspection for ROS interfaces"
 	/usr/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c --generator-arguments-file /home/wxx/xwg/turtle_ws/build/turtle_interfaces/rosidl_typesupport_introspection_c__arguments.json
 
+rosidl_typesupport_introspection_c/turtle_interfaces/srv/detail/patrol__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/turtle_status__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/turtle_interfaces/srv/detail/patrol__rosidl_typesupport_introspection_c.h
+
 rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/turtle_status__type_support.c: rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/turtle_status__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/turtle_status__type_support.c
+
+rosidl_typesupport_introspection_c/turtle_interfaces/srv/detail/patrol__type_support.c: rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/turtle_status__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/turtle_interfaces/srv/detail/patrol__type_support.c
 
 CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/turtle_status__type_support.c.o: CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/flags.make
 CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/turtle_status__type_support.c.o: rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/turtle_status__type_support.c
@@ -100,14 +107,30 @@ CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_type
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/turtle_status__type_support.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wxx/xwg/turtle_ws/build/turtle_interfaces/rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/turtle_status__type_support.c -o CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/turtle_status__type_support.c.s
 
+CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/srv/detail/patrol__type_support.c.o: CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/flags.make
+CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/srv/detail/patrol__type_support.c.o: rosidl_typesupport_introspection_c/turtle_interfaces/srv/detail/patrol__type_support.c
+CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/srv/detail/patrol__type_support.c.o: CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wxx/xwg/turtle_ws/build/turtle_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/srv/detail/patrol__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/srv/detail/patrol__type_support.c.o -MF CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/srv/detail/patrol__type_support.c.o.d -o CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/srv/detail/patrol__type_support.c.o -c /home/wxx/xwg/turtle_ws/build/turtle_interfaces/rosidl_typesupport_introspection_c/turtle_interfaces/srv/detail/patrol__type_support.c
+
+CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/srv/detail/patrol__type_support.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/srv/detail/patrol__type_support.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wxx/xwg/turtle_ws/build/turtle_interfaces/rosidl_typesupport_introspection_c/turtle_interfaces/srv/detail/patrol__type_support.c > CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/srv/detail/patrol__type_support.c.i
+
+CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/srv/detail/patrol__type_support.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/srv/detail/patrol__type_support.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wxx/xwg/turtle_ws/build/turtle_interfaces/rosidl_typesupport_introspection_c/turtle_interfaces/srv/detail/patrol__type_support.c -o CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/srv/detail/patrol__type_support.c.s
+
 # Object files for target turtle_interfaces__rosidl_typesupport_introspection_c
 turtle_interfaces__rosidl_typesupport_introspection_c_OBJECTS = \
-"CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/turtle_status__type_support.c.o"
+"CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/turtle_status__type_support.c.o" \
+"CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/srv/detail/patrol__type_support.c.o"
 
 # External object files for target turtle_interfaces__rosidl_typesupport_introspection_c
 turtle_interfaces__rosidl_typesupport_introspection_c_EXTERNAL_OBJECTS =
 
 libturtle_interfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/turtle_status__type_support.c.o
+libturtle_interfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/srv/detail/patrol__type_support.c.o
 libturtle_interfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/build.make
 libturtle_interfaces__rosidl_typesupport_introspection_c.so: libturtle_interfaces__rosidl_generator_c.so
 libturtle_interfaces__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
@@ -116,7 +139,7 @@ libturtle_interfaces__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib
 libturtle_interfaces__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libturtle_interfaces__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/librcutils.so
 libturtle_interfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wxx/xwg/turtle_ws/build/turtle_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library libturtle_interfaces__rosidl_typesupport_introspection_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wxx/xwg/turtle_ws/build/turtle_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library libturtle_interfaces__rosidl_typesupport_introspection_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -129,6 +152,8 @@ CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/clean:
 
 CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/turtle_status__rosidl_typesupport_introspection_c.h
 CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/turtle_status__type_support.c
+CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/turtle_interfaces/srv/detail/patrol__rosidl_typesupport_introspection_c.h
+CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/turtle_interfaces/srv/detail/patrol__type_support.c
 	cd /home/wxx/xwg/turtle_ws/build/turtle_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wxx/xwg/turtle_ws/src/turtle_interfaces /home/wxx/xwg/turtle_ws/src/turtle_interfaces /home/wxx/xwg/turtle_ws/build/turtle_interfaces /home/wxx/xwg/turtle_ws/build/turtle_interfaces /home/wxx/xwg/turtle_ws/build/turtle_interfaces/CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/depend
 

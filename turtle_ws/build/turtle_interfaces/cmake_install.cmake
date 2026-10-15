@@ -364,7 +364,23 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtle_interfaces/srv" TYPE FILE FILES "/home/wxx/xwg/turtle_ws/build/turtle_interfaces/rosidl_adapter/turtle_interfaces/srv/Patrol.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtle_interfaces/msg" TYPE FILE FILES "/home/wxx/xwg/turtle_ws/src/turtle_interfaces/msg/TurtleStatus.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtle_interfaces/srv" TYPE FILE FILES "/home/wxx/xwg/turtle_ws/src/turtle_interfaces/srv/Patrol.srv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtle_interfaces/srv" TYPE FILE FILES "/home/wxx/xwg/turtle_ws/build/turtle_interfaces/rosidl_cmake/srv/Patrol_Request.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/turtle_interfaces/srv" TYPE FILE FILES "/home/wxx/xwg/turtle_ws/build/turtle_interfaces/rosidl_cmake/srv/Patrol_Response.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

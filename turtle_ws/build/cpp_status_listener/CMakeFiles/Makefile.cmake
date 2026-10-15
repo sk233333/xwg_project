@@ -713,4 +713,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/uninstall.dir/DependInfo.cmake"
   "CMakeFiles/cpp_status_listener_uninstall.dir/DependInfo.cmake"
   "CMakeFiles/status_listener.dir/DependInfo.cmake"
+  "CMakeFiles/patrol_client.dir/DependInfo.cmake"
   )

@@ -24,13 +24,16 @@ find_package(turtle_interfaces REQUIRED)     # 自定义消息头文件
 add_executable(status_listener src/status_listener.cpp)
 #add_executable是 CMake的内置命令，作用是"声明把哪些.cpp文件编成一个可执行程序
 # 把.cpp编译成可执行文件（第一个参数就是ros2 run的命令名，后面是原代码路径）
+add_executable(patrol_client src/patrol_client.cpp)
 
 ament_target_dependencies(status_listener rclcpp turtle_interfaces)
 #ament_target_dependencies(目标名 包1 包2 ...)= 把已经 find_package找到的 ROS2包，一键把头文件+库+传递依赖，挂到我的节点上,自动帮你递归展开所有传递依赖
+ament_target_dependencies(patrol_client rclcpp turtle_interfaces)
 
 install(TARGETS status_listener DESTINATION lib/${PROJECT_NAME})
 #TARGETS status_listener 安装上面 add_executable 生成的可执行文件
 #DESTINATION lib/${PROJECT_NAME} 安装到 install/cpp_status_listener/lib/cpp_status_listener/
+install(TARGETS patrol_client DESTINATION lib/${PROJECT_NAME})
 
 ament_package()
 #结束声明

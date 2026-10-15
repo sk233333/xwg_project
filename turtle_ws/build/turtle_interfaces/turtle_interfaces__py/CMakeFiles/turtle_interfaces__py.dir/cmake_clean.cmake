@@ -5,6 +5,9 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/turtle_interfaces/msg/__init__.py"
   "../rosidl_generator_py/turtle_interfaces/msg/_turtle_status.py"
   "../rosidl_generator_py/turtle_interfaces/msg/_turtle_status_s.c"
+  "../rosidl_generator_py/turtle_interfaces/srv/__init__.py"
+  "../rosidl_generator_py/turtle_interfaces/srv/_patrol.py"
+  "../rosidl_generator_py/turtle_interfaces/srv/_patrol_s.c"
   "CMakeFiles/turtle_interfaces__py"
 )
 

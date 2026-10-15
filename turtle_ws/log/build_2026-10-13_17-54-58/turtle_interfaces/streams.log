@@ -1,0 +1,287 @@
+[0.007s] Invoking command in '/home/wxx/xwg/turtle_ws/build/turtle_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wxx/xwg/turtle_ws/install/py_turtle_control:/opt/ros/humble /usr/bin/cmake /home/wxx/xwg/turtle_ws/src/turtle_interfaces -DCMAKE_INSTALL_PREFIX=/home/wxx/xwg/turtle_ws/install/turtle_interfaces
+[0.047s] -- The C compiler identification is GNU 11.4.0
+[0.083s] -- The CXX compiler identification is GNU 11.4.0
+[0.088s] -- Detecting C compiler ABI info
+[0.134s] -- Detecting C compiler ABI info - done
+[0.137s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.138s] -- Detecting C compile features
+[0.138s] -- Detecting C compile features - done
+[0.140s] -- Detecting CXX compiler ABI info
+[0.189s] -- Detecting CXX compiler ABI info - done
+[0.193s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.193s] -- Detecting CXX compile features
+[0.193s] -- Detecting CXX compile features - done
+[0.196s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.281s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.335s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.337s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.341s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.365s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.388s] -- Found builtin_interfaces: 1.2.3 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.540s] -- Found ament_cmake_ros: 0.10.1 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.645s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.780s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.793s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.794s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.810s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[0.810s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.810s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.810s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.822s] -- Found PythonExtra: .so  
+[0.882s] -- Configuring done
+[0.903s] -- Generating done
+[0.909s] -- Build files have been written to: /home/wxx/xwg/turtle_ws/build/turtle_interfaces
+[0.915s] Invoked command in '/home/wxx/xwg/turtle_ws/build/turtle_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wxx/xwg/turtle_ws/install/py_turtle_control:/opt/ros/humble /usr/bin/cmake /home/wxx/xwg/turtle_ws/src/turtle_interfaces -DCMAKE_INSTALL_PREFIX=/home/wxx/xwg/turtle_ws/install/turtle_interfaces
+[0.917s] Invoking command in '/home/wxx/xwg/turtle_ws/build/turtle_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wxx/xwg/turtle_ws/install/py_turtle_control:/opt/ros/humble /usr/bin/cmake --build /home/wxx/xwg/turtle_ws/build/turtle_interfaces -- -j32 -l32
+[0.942s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.948s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.949s] [  7%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[0.953s] [  7%] Built target ament_cmake_python_copy_turtle_interfaces
+[1.080s] running egg_info
+[1.081s] creating turtle_interfaces.egg-info
+[1.081s] writing turtle_interfaces.egg-info/PKG-INFO
+[1.081s] writing dependency_links to turtle_interfaces.egg-info/dependency_links.txt
+[1.081s] writing top-level names to turtle_interfaces.egg-info/top_level.txt
+[1.081s] writing manifest file 'turtle_interfaces.egg-info/SOURCES.txt'
+[1.082s] reading manifest file 'turtle_interfaces.egg-info/SOURCES.txt'
+[1.082s] writing manifest file 'turtle_interfaces.egg-info/SOURCES.txt'
+[1.099s] [  7%] Built target ament_cmake_python_build_turtle_interfaces_egg
+[1.157s] [  7%] Built target turtle_interfaces__rs
+[1.190s] [ 10%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/srv/detail/patrol__functions.c.o[0m
+[1.190s] [ 12%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/msg/detail/turtle_status__functions.c.o[0m
+[1.194s] [ 12%] Built target turtle_interfaces__cpp
+[1.200s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.200s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.200s] [ 20%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.223s] [ 22%] [32m[1mLinking C shared library libturtle_interfaces__rosidl_generator_c.so[0m
+[1.246s] [ 22%] Built target turtle_interfaces__rosidl_generator_c
+[1.252s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.252s] [ 27%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.254s] [ 30%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.422s] [ 32%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/msg/turtle_status__type_support.cpp.o[0m
+[1.422s] [ 35%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/srv/detail/patrol__type_support.cpp.o[0m
+[1.422s] [ 37%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/srv/patrol__type_support.cpp.o[0m
+[1.423s] [ 40%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/msg/detail/turtle_status__type_support.cpp.o[0m
+[1.439s] [ 42%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/msg/detail/dds_fastrtps/turtle_status__type_support.cpp.o[0m
+[1.439s] [ 45%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/srv/detail/dds_fastrtps/patrol__type_support.cpp.o[0m
+[1.475s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_interfaces/msg/turtle_status__type_support.cpp.o[0m
+[1.475s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_interfaces/srv/patrol__type_support.cpp.o[0m
+[1.486s] [ 52%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/msg/detail/turtle_status__type_support.c.o[0m
+[1.486s] [ 55%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/srv/detail/patrol__type_support.c.o[0m
+[1.496s] [ 57%] [32m[1mLinking CXX shared library libturtle_interfaces__rosidl_typesupport_c.so[0m
+[1.502s] [ 60%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_interfaces/srv/detail/patrol__type_support_c.cpp.o[0m
+[1.503s] [ 62%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_interfaces/msg/detail/turtle_status__type_support_c.cpp.o[0m
+[1.510s] [ 65%] [32m[1mLinking C shared library libturtle_interfaces__rosidl_typesupport_introspection_c.so[0m
+[1.525s] [ 65%] Built target turtle_interfaces__rosidl_typesupport_c
+[1.532s] [ 65%] Built target turtle_interfaces__rosidl_typesupport_introspection_c
+[1.570s] [ 67%] [32m[1mLinking CXX shared library libturtle_interfaces__rosidl_typesupport_cpp.so[0m
+[1.597s] [ 67%] Built target turtle_interfaces__rosidl_typesupport_cpp
+[1.629s] [ 70%] [32m[1mLinking CXX shared library libturtle_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[1.655s] [ 72%] [32m[1mLinking CXX shared library libturtle_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.667s] [ 72%] Built target turtle_interfaces__rosidl_typesupport_introspection_cpp
+[1.687s] [ 75%] [32m[1mLinking CXX shared library libturtle_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[1.699s] [ 75%] Built target turtle_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.731s] [ 75%] Built target turtle_interfaces__rosidl_typesupport_fastrtps_c
+[1.743s] [ 75%] Built target turtle_interfaces
+[1.756s] [ 77%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.114s] [ 77%] Built target turtle_interfaces__py
+[2.126s] [ 80%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_py.dir/rosidl_generator_py/turtle_interfaces/msg/_turtle_status_s.c.o[0m
+[2.127s] [ 82%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_py.dir/rosidl_generator_py/turtle_interfaces/srv/_patrol_s.c.o[0m
+[2.185s] [ 85%] [32m[1mLinking C shared library rosidl_generator_py/turtle_interfaces/libturtle_interfaces__rosidl_generator_py.so[0m
+[2.211s] [ 85%] Built target turtle_interfaces__rosidl_generator_py
+[2.224s] [ 90%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/turtle_interfaces/_turtle_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.224s] [ 90%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/turtle_interfaces/_turtle_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[2.225s] [ 92%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/turtle_interfaces/_turtle_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.284s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.284s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.285s] [100%] [32m[1mLinking C shared library rosidl_generator_py/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.307s] [100%] Built target turtle_interfaces__rosidl_typesupport_c__pyext
+[2.307s] [100%] Built target turtle_interfaces__rosidl_typesupport_introspection_c__pyext
+[2.308s] [100%] Built target turtle_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.317s] Invoked command in '/home/wxx/xwg/turtle_ws/build/turtle_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wxx/xwg/turtle_ws/install/py_turtle_control:/opt/ros/humble /usr/bin/cmake --build /home/wxx/xwg/turtle_ws/build/turtle_interfaces -- -j32 -l32
+[2.323s] Invoking command in '/home/wxx/xwg/turtle_ws/build/turtle_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wxx/xwg/turtle_ws/install/py_turtle_control:/opt/ros/humble /usr/bin/cmake --install /home/wxx/xwg/turtle_ws/build/turtle_interfaces
+[2.328s] -- Install configuration: ""
+[2.328s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/ament_index/resource_index/rosidl_interfaces/turtle_interfaces
+[2.328s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces
+[2.328s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg
+[2.328s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.329s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail
+[2.329s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_status__type_support.h
+[2.329s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_status__struct.h
+[2.329s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_status__functions.h
+[2.329s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_status__functions.c
+[2.329s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/turtle_status.h
+[2.329s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv
+[2.329s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail
+[2.329s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/patrol__functions.c
+[2.329s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/patrol__type_support.h
+[2.329s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/patrol__functions.h
+[2.329s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/patrol__struct.h
+[2.329s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/patrol.h
+[2.330s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/environment/library_path.sh
+[2.330s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/environment/library_path.dsv
+[2.330s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_generator_c.so
+[2.330s] -- Set runtime path of "/home/wxx/xwg/turtle_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_generator_c.so" to ""
+[2.330s] -- Up-to-date: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces
+[2.330s] -- Up-to-date: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg
+[2.330s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.330s] -- Up-to-date: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail
+[2.330s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_status__rosidl_typesupport_fastrtps_c.h
+[2.330s] -- Up-to-date: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv
+[2.330s] -- Up-to-date: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail
+[2.330s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/patrol__rosidl_typesupport_fastrtps_c.h
+[2.330s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.331s] -- Set runtime path of "/home/wxx/xwg/turtle_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[2.331s] -- Up-to-date: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces
+[2.331s] -- Up-to-date: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg
+[2.331s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.331s] -- Up-to-date: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail
+[2.331s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_status__type_support.c
+[2.331s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_status__rosidl_typesupport_introspection_c.h
+[2.331s] -- Up-to-date: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv
+[2.331s] -- Up-to-date: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail
+[2.331s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/patrol__type_support.c
+[2.331s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/patrol__rosidl_typesupport_introspection_c.h
+[2.331s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_introspection_c.so
+[2.331s] -- Set runtime path of "/home/wxx/xwg/turtle_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[2.332s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_c.so
+[2.332s] -- Set runtime path of "/home/wxx/xwg/turtle_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_c.so" to ""
+[2.332s] -- Up-to-date: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces
+[2.332s] -- Up-to-date: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg
+[2.332s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.332s] -- Up-to-date: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail
+[2.332s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_status__struct.hpp
+[2.332s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_status__type_support.hpp
+[2.332s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_status__traits.hpp
+[2.332s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_status__builder.hpp
+[2.332s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/turtle_status.hpp
+[2.332s] -- Up-to-date: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv
+[2.332s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/patrol.hpp
+[2.332s] -- Up-to-date: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail
+[2.332s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/patrol__builder.hpp
+[2.332s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/patrol__type_support.hpp
+[2.333s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/patrol__struct.hpp
+[2.333s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/patrol__traits.hpp
+[2.333s] -- Up-to-date: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces
+[2.333s] -- Up-to-date: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg
+[2.333s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.333s] -- Up-to-date: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail
+[2.333s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/dds_fastrtps
+[2.333s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_status__rosidl_typesupport_fastrtps_cpp.hpp
+[2.333s] -- Up-to-date: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv
+[2.333s] -- Up-to-date: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail
+[2.333s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/dds_fastrtps
+[2.333s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/patrol__rosidl_typesupport_fastrtps_cpp.hpp
+[2.333s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.334s] -- Set runtime path of "/home/wxx/xwg/turtle_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.334s] -- Up-to-date: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces
+[2.334s] -- Up-to-date: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg
+[2.334s] -- Up-to-date: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail
+[2.334s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_status__rosidl_typesupport_introspection_cpp.hpp
+[2.334s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/detail/turtle_status__type_support.cpp
+[2.334s] -- Up-to-date: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv
+[2.334s] -- Up-to-date: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail
+[2.334s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/patrol__rosidl_typesupport_introspection_cpp.hpp
+[2.334s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/patrol__type_support.cpp
+[2.334s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.334s] -- Set runtime path of "/home/wxx/xwg/turtle_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[2.334s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_cpp.so
+[2.335s] -- Set runtime path of "/home/wxx/xwg/turtle_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_cpp.so" to ""
+[2.335s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/environment/pythonpath.sh
+[2.335s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/environment/pythonpath.dsv
+[2.335s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces-0.0.0-py3.10.egg-info
+[2.335s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[2.335s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.335s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[2.335s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.335s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces
+[2.335s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/msg
+[2.335s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/msg/_turtle_status_s.c
+[2.336s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/msg/__init__.py
+[2.336s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/msg/_turtle_status.py
+[2.336s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.336s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/_turtle_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.336s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/_turtle_interfaces_s.ep.rosidl_typesupport_c.c
+[2.336s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/_turtle_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.336s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/__init__.py
+[2.336s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/srv
+[2.336s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/srv/_patrol_s.c
+[2.336s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/srv/__init__.py
+[2.337s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/srv/_patrol.py
+[2.337s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/libturtle_interfaces__rosidl_generator_py.so
+[2.337s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.337s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.357s] Listing '/home/wxx/xwg/turtle_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces'...
+[2.357s] Compiling '/home/wxx/xwg/turtle_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/__init__.py'...
+[2.357s] Listing '/home/wxx/xwg/turtle_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/msg'...
+[2.357s] Compiling '/home/wxx/xwg/turtle_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/msg/__init__.py'...
+[2.357s] Compiling '/home/wxx/xwg/turtle_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/msg/_turtle_status.py'...
+[2.357s] Listing '/home/wxx/xwg/turtle_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/srv'...
+[2.357s] Compiling '/home/wxx/xwg/turtle_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/srv/__init__.py'...
+[2.357s] Compiling '/home/wxx/xwg/turtle_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/srv/_patrol.py'...
+[2.361s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.361s] -- Set runtime path of "/home/wxx/xwg/turtle_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.361s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.361s] -- Set runtime path of "/home/wxx/xwg/turtle_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.361s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.361s] -- Set runtime path of "/home/wxx/xwg/turtle_ws/install/turtle_interfaces/local/lib/python3.10/dist-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.362s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_generator_py.so
+[2.362s] -- Set runtime path of "/home/wxx/xwg/turtle_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_generator_py.so" to ""
+[2.362s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/rust
+[2.362s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/rust/build.rs
+[2.362s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/rust/Cargo.toml
+[2.362s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/rust/src
+[2.362s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/rust/src/msg
+[2.362s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/rust/src/msg/rmw.rs
+[2.362s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/rust/src/srv
+[2.362s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/rust/src/srv/rmw.rs
+[2.362s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/rust/src/lib.rs
+[2.362s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/rust/src/msg.rs
+[2.362s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/rust/src/srv.rs
+[2.363s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/msg/TurtleStatus.idl
+[2.363s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/srv/Patrol.idl
+[2.363s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/msg/TurtleStatus.msg
+[2.363s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/srv/Patrol.srv
+[2.363s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/srv/Patrol_Request.msg
+[2.363s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/srv/Patrol_Response.msg
+[2.363s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/ament_index/resource_index/package_run_dependencies/turtle_interfaces
+[2.363s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/ament_index/resource_index/parent_prefix_path/turtle_interfaces
+[2.363s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/environment/ament_prefix_path.sh
+[2.363s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/environment/ament_prefix_path.dsv
+[2.363s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/environment/path.sh
+[2.364s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/environment/path.dsv
+[2.364s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/local_setup.bash
+[2.364s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/local_setup.sh
+[2.364s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/local_setup.zsh
+[2.364s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/local_setup.dsv
+[2.364s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/package.dsv
+[2.364s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/ament_index/resource_index/packages/turtle_interfaces
+[2.364s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_generator_cExport.cmake
+[2.364s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.364s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[2.364s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.365s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.365s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.365s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_cExport.cmake
+[2.365s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.365s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_generator_cppExport.cmake
+[2.365s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.365s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.365s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.365s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.365s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_cppExport.cmake
+[2.365s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.366s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_generator_pyExport.cmake
+[2.366s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[2.366s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.366s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.366s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.366s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.366s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.366s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.366s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.366s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[2.366s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfacesConfig.cmake
+[2.366s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfacesConfig-version.cmake
+[2.367s] -- Installing: /home/wxx/xwg/turtle_ws/install/turtle_interfaces/share/turtle_interfaces/package.xml
+[2.368s] Invoked command in '/home/wxx/xwg/turtle_ws/build/turtle_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wxx/xwg/turtle_ws/install/py_turtle_control:/opt/ros/humble /usr/bin/cmake --install /home/wxx/xwg/turtle_ws/build/turtle_interfaces

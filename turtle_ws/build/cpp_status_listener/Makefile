@@ -210,6 +210,43 @@ status_listener/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/status_listener.dir/build.make CMakeFiles/status_listener.dir/build
 .PHONY : status_listener/fast
 
+#=============================================================================
+# Target rules for targets named patrol_client
+
+# Build rule for target.
+patrol_client: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 patrol_client
+.PHONY : patrol_client
+
+# fast build rule for target.
+patrol_client/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/patrol_client.dir/build.make CMakeFiles/patrol_client.dir/build
+.PHONY : patrol_client/fast
+
+src/patrol_client.o: src/patrol_client.cpp.o
+.PHONY : src/patrol_client.o
+
+# target to build an object file
+src/patrol_client.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/patrol_client.dir/build.make CMakeFiles/patrol_client.dir/src/patrol_client.cpp.o
+.PHONY : src/patrol_client.cpp.o
+
+src/patrol_client.i: src/patrol_client.cpp.i
+.PHONY : src/patrol_client.i
+
+# target to preprocess a source file
+src/patrol_client.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/patrol_client.dir/build.make CMakeFiles/patrol_client.dir/src/patrol_client.cpp.i
+.PHONY : src/patrol_client.cpp.i
+
+src/patrol_client.s: src/patrol_client.cpp.s
+.PHONY : src/patrol_client.s
+
+# target to generate assembly for a file
+src/patrol_client.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/patrol_client.dir/build.make CMakeFiles/patrol_client.dir/src/patrol_client.cpp.s
+.PHONY : src/patrol_client.cpp.s
+
 src/status_listener.o: src/status_listener.cpp.o
 .PHONY : src/status_listener.o
 
@@ -249,7 +286,11 @@ help:
 	@echo "... test"
 	@echo "... cpp_status_listener_uninstall"
 	@echo "... uninstall"
+	@echo "... patrol_client"
 	@echo "... status_listener"
+	@echo "... src/patrol_client.o"
+	@echo "... src/patrol_client.i"
+	@echo "... src/patrol_client.s"
 	@echo "... src/status_listener.o"
 	@echo "... src/status_listener.i"
 	@echo "... src/status_listener.s"

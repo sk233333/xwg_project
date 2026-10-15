@@ -1,0 +1,46 @@
+[0.318s] Invoking command in '/home/wxx/xwg/turtle_ws/src/py_turtle_control': CMAKE_PREFIX_PATH=/home/wxx/xwg/turtle_ws/install/turtle_interfaces:/home/wxx/xwg/turtle_ws/install/cpp_status_listener PYTHONPATH=/home/wxx/xwg/turtle_ws/build/py_turtle_control/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wxx/xwg/turtle_ws/install/py_turtle_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_turtle_control build --build-base /home/wxx/xwg/turtle_ws/build/py_turtle_control/build install --record /home/wxx/xwg/turtle_ws/build/py_turtle_control/install.log --install-scripts $base/lib/py_turtle_control --single-version-externally-managed install_data
+[0.435s] running egg_info
+[0.435s] creating ../../build/py_turtle_control/py_turtle_control.egg-info
+[0.435s] writing ../../build/py_turtle_control/py_turtle_control.egg-info/PKG-INFO
+[0.435s] writing dependency_links to ../../build/py_turtle_control/py_turtle_control.egg-info/dependency_links.txt
+[0.435s] writing entry points to ../../build/py_turtle_control/py_turtle_control.egg-info/entry_points.txt
+[0.435s] writing requirements to ../../build/py_turtle_control/py_turtle_control.egg-info/requires.txt
+[0.435s] writing top-level names to ../../build/py_turtle_control/py_turtle_control.egg-info/top_level.txt
+[0.435s] writing manifest file '../../build/py_turtle_control/py_turtle_control.egg-info/SOURCES.txt'
+[0.436s] reading manifest file '../../build/py_turtle_control/py_turtle_control.egg-info/SOURCES.txt'
+[0.436s] adding license file 'LICENSE'
+[0.436s] writing manifest file '../../build/py_turtle_control/py_turtle_control.egg-info/SOURCES.txt'
+[0.436s] running build
+[0.436s] running build_py
+[0.436s] creating /home/wxx/xwg/turtle_ws/build/py_turtle_control/build
+[0.437s] creating /home/wxx/xwg/turtle_ws/build/py_turtle_control/build/lib
+[0.437s] creating /home/wxx/xwg/turtle_ws/build/py_turtle_control/build/lib/py_turtle_control
+[0.437s] copying py_turtle_control/patrol_server.py -> /home/wxx/xwg/turtle_ws/build/py_turtle_control/build/lib/py_turtle_control
+[0.437s] copying py_turtle_control/__init__.py -> /home/wxx/xwg/turtle_ws/build/py_turtle_control/build/lib/py_turtle_control
+[0.437s] copying py_turtle_control/spawn_turtle.py -> /home/wxx/xwg/turtle_ws/build/py_turtle_control/build/lib/py_turtle_control
+[0.437s] copying py_turtle_control/turtle_circle.py -> /home/wxx/xwg/turtle_ws/build/py_turtle_control/build/lib/py_turtle_control
+[0.437s] running install
+[0.437s] running install_lib
+[0.437s] creating /home/wxx/xwg/turtle_ws/install/py_turtle_control/lib/python3.10/site-packages/py_turtle_control
+[0.437s] copying /home/wxx/xwg/turtle_ws/build/py_turtle_control/build/lib/py_turtle_control/patrol_server.py -> /home/wxx/xwg/turtle_ws/install/py_turtle_control/lib/python3.10/site-packages/py_turtle_control
+[0.437s] copying /home/wxx/xwg/turtle_ws/build/py_turtle_control/build/lib/py_turtle_control/__init__.py -> /home/wxx/xwg/turtle_ws/install/py_turtle_control/lib/python3.10/site-packages/py_turtle_control
+[0.437s] copying /home/wxx/xwg/turtle_ws/build/py_turtle_control/build/lib/py_turtle_control/spawn_turtle.py -> /home/wxx/xwg/turtle_ws/install/py_turtle_control/lib/python3.10/site-packages/py_turtle_control
+[0.438s] copying /home/wxx/xwg/turtle_ws/build/py_turtle_control/build/lib/py_turtle_control/turtle_circle.py -> /home/wxx/xwg/turtle_ws/install/py_turtle_control/lib/python3.10/site-packages/py_turtle_control
+[0.438s] byte-compiling /home/wxx/xwg/turtle_ws/install/py_turtle_control/lib/python3.10/site-packages/py_turtle_control/patrol_server.py to patrol_server.cpython-310.pyc
+[0.438s] byte-compiling /home/wxx/xwg/turtle_ws/install/py_turtle_control/lib/python3.10/site-packages/py_turtle_control/__init__.py to __init__.cpython-310.pyc
+[0.439s] byte-compiling /home/wxx/xwg/turtle_ws/install/py_turtle_control/lib/python3.10/site-packages/py_turtle_control/spawn_turtle.py to spawn_turtle.cpython-310.pyc
+[0.439s] byte-compiling /home/wxx/xwg/turtle_ws/install/py_turtle_control/lib/python3.10/site-packages/py_turtle_control/turtle_circle.py to turtle_circle.cpython-310.pyc
+[0.439s] running install_data
+[0.439s] creating /home/wxx/xwg/turtle_ws/install/py_turtle_control/share/ament_index
+[0.439s] creating /home/wxx/xwg/turtle_ws/install/py_turtle_control/share/ament_index/resource_index
+[0.439s] creating /home/wxx/xwg/turtle_ws/install/py_turtle_control/share/ament_index/resource_index/packages
+[0.439s] copying resource/py_turtle_control -> /home/wxx/xwg/turtle_ws/install/py_turtle_control/share/ament_index/resource_index/packages
+[0.439s] copying package.xml -> /home/wxx/xwg/turtle_ws/install/py_turtle_control/share/py_turtle_control
+[0.439s] running install_egg_info
+[0.440s] Copying ../../build/py_turtle_control/py_turtle_control.egg-info to /home/wxx/xwg/turtle_ws/install/py_turtle_control/lib/python3.10/site-packages/py_turtle_control-0.0.0-py3.10.egg-info
+[0.441s] running install_scripts
+[0.451s] Installing patrol_server script to /home/wxx/xwg/turtle_ws/install/py_turtle_control/lib/py_turtle_control
+[0.452s] Installing spawn_turtle script to /home/wxx/xwg/turtle_ws/install/py_turtle_control/lib/py_turtle_control
+[0.452s] Installing turtle_circle script to /home/wxx/xwg/turtle_ws/install/py_turtle_control/lib/py_turtle_control
+[0.452s] writing list of installed files to '/home/wxx/xwg/turtle_ws/build/py_turtle_control/install.log'
+[0.464s] Invoked command in '/home/wxx/xwg/turtle_ws/src/py_turtle_control' returned '0': CMAKE_PREFIX_PATH=/home/wxx/xwg/turtle_ws/install/turtle_interfaces:/home/wxx/xwg/turtle_ws/install/cpp_status_listener PYTHONPATH=/home/wxx/xwg/turtle_ws/build/py_turtle_control/prefix_override:/usr/local/lib/python3.10/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wxx/xwg/turtle_ws/install/py_turtle_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_turtle_control build --build-base /home/wxx/xwg/turtle_ws/build/py_turtle_control/build install --record /home/wxx/xwg/turtle_ws/build/py_turtle_control/install.log --install-scripts $base/lib/py_turtle_control --single-version-externally-managed install_data

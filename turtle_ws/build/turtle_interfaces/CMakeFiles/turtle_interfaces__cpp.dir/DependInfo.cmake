@@ -16,6 +16,11 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/wxx/xwg/turtle_ws/build/turtle_interfaces/rosidl_generator_cpp/turtle_interfaces/msg/detail/turtle_status__struct.hpp" "/home/wxx/xwg/turtle_ws/build/turtle_interfaces/rosidl_generator_cpp/turtle_interfaces/msg/turtle_status.hpp"
   "/home/wxx/xwg/turtle_ws/build/turtle_interfaces/rosidl_generator_cpp/turtle_interfaces/msg/detail/turtle_status__traits.hpp" "/home/wxx/xwg/turtle_ws/build/turtle_interfaces/rosidl_generator_cpp/turtle_interfaces/msg/turtle_status.hpp"
   "/home/wxx/xwg/turtle_ws/build/turtle_interfaces/rosidl_generator_cpp/turtle_interfaces/msg/detail/turtle_status__type_support.hpp" "/home/wxx/xwg/turtle_ws/build/turtle_interfaces/rosidl_generator_cpp/turtle_interfaces/msg/turtle_status.hpp"
+  "/home/wxx/xwg/turtle_ws/build/turtle_interfaces/rosidl_generator_cpp/turtle_interfaces/srv/detail/patrol__builder.hpp" "/home/wxx/xwg/turtle_ws/build/turtle_interfaces/rosidl_generator_cpp/turtle_interfaces/msg/turtle_status.hpp"
+  "/home/wxx/xwg/turtle_ws/build/turtle_interfaces/rosidl_generator_cpp/turtle_interfaces/srv/detail/patrol__struct.hpp" "/home/wxx/xwg/turtle_ws/build/turtle_interfaces/rosidl_generator_cpp/turtle_interfaces/msg/turtle_status.hpp"
+  "/home/wxx/xwg/turtle_ws/build/turtle_interfaces/rosidl_generator_cpp/turtle_interfaces/srv/detail/patrol__traits.hpp" "/home/wxx/xwg/turtle_ws/build/turtle_interfaces/rosidl_generator_cpp/turtle_interfaces/msg/turtle_status.hpp"
+  "/home/wxx/xwg/turtle_ws/build/turtle_interfaces/rosidl_generator_cpp/turtle_interfaces/srv/detail/patrol__type_support.hpp" "/home/wxx/xwg/turtle_ws/build/turtle_interfaces/rosidl_generator_cpp/turtle_interfaces/msg/turtle_status.hpp"
+  "/home/wxx/xwg/turtle_ws/build/turtle_interfaces/rosidl_generator_cpp/turtle_interfaces/srv/patrol.hpp" "/home/wxx/xwg/turtle_ws/build/turtle_interfaces/rosidl_generator_cpp/turtle_interfaces/msg/turtle_status.hpp"
   )
 
 

@@ -71,6 +71,11 @@ CMakeFiles/turtle_interfaces__cpp: rosidl_generator_cpp/turtle_interfaces/msg/de
 CMakeFiles/turtle_interfaces__cpp: rosidl_generator_cpp/turtle_interfaces/msg/detail/turtle_status__struct.hpp
 CMakeFiles/turtle_interfaces__cpp: rosidl_generator_cpp/turtle_interfaces/msg/detail/turtle_status__traits.hpp
 CMakeFiles/turtle_interfaces__cpp: rosidl_generator_cpp/turtle_interfaces/msg/detail/turtle_status__type_support.hpp
+CMakeFiles/turtle_interfaces__cpp: rosidl_generator_cpp/turtle_interfaces/srv/patrol.hpp
+CMakeFiles/turtle_interfaces__cpp: rosidl_generator_cpp/turtle_interfaces/srv/detail/patrol__builder.hpp
+CMakeFiles/turtle_interfaces__cpp: rosidl_generator_cpp/turtle_interfaces/srv/detail/patrol__struct.hpp
+CMakeFiles/turtle_interfaces__cpp: rosidl_generator_cpp/turtle_interfaces/srv/detail/patrol__traits.hpp
+CMakeFiles/turtle_interfaces__cpp: rosidl_generator_cpp/turtle_interfaces/srv/detail/patrol__type_support.hpp
 CMakeFiles/turtle_interfaces__cpp: rosidl_generator_cpp/turtle_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
 
 rosidl_generator_cpp/turtle_interfaces/msg/turtle_status.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -89,6 +94,7 @@ rosidl_generator_cpp/turtle_interfaces/msg/turtle_status.hpp: /opt/ros/humble/sh
 rosidl_generator_cpp/turtle_interfaces/msg/turtle_status.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
 rosidl_generator_cpp/turtle_interfaces/msg/turtle_status.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/turtle_interfaces/msg/turtle_status.hpp: rosidl_adapter/turtle_interfaces/msg/TurtleStatus.idl
+rosidl_generator_cpp/turtle_interfaces/msg/turtle_status.hpp: rosidl_adapter/turtle_interfaces/srv/Patrol.idl
 rosidl_generator_cpp/turtle_interfaces/msg/turtle_status.hpp: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_cpp/turtle_interfaces/msg/turtle_status.hpp: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/wxx/xwg/turtle_ws/build/turtle_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
@@ -106,12 +112,32 @@ rosidl_generator_cpp/turtle_interfaces/msg/detail/turtle_status__traits.hpp: ros
 rosidl_generator_cpp/turtle_interfaces/msg/detail/turtle_status__type_support.hpp: rosidl_generator_cpp/turtle_interfaces/msg/turtle_status.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/turtle_interfaces/msg/detail/turtle_status__type_support.hpp
 
+rosidl_generator_cpp/turtle_interfaces/srv/patrol.hpp: rosidl_generator_cpp/turtle_interfaces/msg/turtle_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/turtle_interfaces/srv/patrol.hpp
+
+rosidl_generator_cpp/turtle_interfaces/srv/detail/patrol__builder.hpp: rosidl_generator_cpp/turtle_interfaces/msg/turtle_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/turtle_interfaces/srv/detail/patrol__builder.hpp
+
+rosidl_generator_cpp/turtle_interfaces/srv/detail/patrol__struct.hpp: rosidl_generator_cpp/turtle_interfaces/msg/turtle_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/turtle_interfaces/srv/detail/patrol__struct.hpp
+
+rosidl_generator_cpp/turtle_interfaces/srv/detail/patrol__traits.hpp: rosidl_generator_cpp/turtle_interfaces/msg/turtle_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/turtle_interfaces/srv/detail/patrol__traits.hpp
+
+rosidl_generator_cpp/turtle_interfaces/srv/detail/patrol__type_support.hpp: rosidl_generator_cpp/turtle_interfaces/msg/turtle_status.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/turtle_interfaces/srv/detail/patrol__type_support.hpp
+
 turtle_interfaces__cpp: CMakeFiles/turtle_interfaces__cpp
 turtle_interfaces__cpp: rosidl_generator_cpp/turtle_interfaces/msg/detail/turtle_status__builder.hpp
 turtle_interfaces__cpp: rosidl_generator_cpp/turtle_interfaces/msg/detail/turtle_status__struct.hpp
 turtle_interfaces__cpp: rosidl_generator_cpp/turtle_interfaces/msg/detail/turtle_status__traits.hpp
 turtle_interfaces__cpp: rosidl_generator_cpp/turtle_interfaces/msg/detail/turtle_status__type_support.hpp
 turtle_interfaces__cpp: rosidl_generator_cpp/turtle_interfaces/msg/turtle_status.hpp
+turtle_interfaces__cpp: rosidl_generator_cpp/turtle_interfaces/srv/detail/patrol__builder.hpp
+turtle_interfaces__cpp: rosidl_generator_cpp/turtle_interfaces/srv/detail/patrol__struct.hpp
+turtle_interfaces__cpp: rosidl_generator_cpp/turtle_interfaces/srv/detail/patrol__traits.hpp
+turtle_interfaces__cpp: rosidl_generator_cpp/turtle_interfaces/srv/detail/patrol__type_support.hpp
+turtle_interfaces__cpp: rosidl_generator_cpp/turtle_interfaces/srv/patrol.hpp
 turtle_interfaces__cpp: CMakeFiles/turtle_interfaces__cpp.dir/build.make
 .PHONY : turtle_interfaces__cpp
 

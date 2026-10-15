@@ -1,4 +1,5 @@
 from setuptools import setup
+import os
 #setup() 是 Python官方打包工具 setuptools 的核心函数，ROS2的colcon build底层就是在调用它
 
 package_name = 'py_turtle_control'
@@ -16,6 +17,11 @@ setup(
     data_files=[
         ('share/ament_index/resource_index/packages', ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        ('share/' + 'py_turtle_control' + '/launch',
+         [os.path.join('launch', f)
+          for f in os.listdir('launch')
+          if f.endswith('.launch.py')]),
+        
     ],
     #data_files 是 setuptools 的参数
     #data_files=[ (安装目标路径, [源文件路径1, 源文件路径2, ...]), (安装目标路径, [源文件路径1, ...]),
@@ -39,6 +45,11 @@ setup(
         'console_scripts': [
             # 左边是终端命令名（ros2 run 时用的命令名），右边是 内层包名+python代码名:调用的函数名
             'turtle_circle = py_turtle_control.turtle_circle:main',
+            'spawn_turtle  = py_turtle_control.spawn_turtle:main',
+            'patrol_server = py_turtle_control.patrol_server:main', 
+            'tf_broadcaster   = py_turtle_control.tf_broadcaster:main',
+            
         ],
     },
+
 )

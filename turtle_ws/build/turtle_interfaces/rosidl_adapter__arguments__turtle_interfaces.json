@@ -1,6 +1,7 @@
 {
   "package_name": "turtle_interfaces",
   "non_idl_tuples": [
-    "/home/wxx/xwg/turtle_ws/src/turtle_interfaces:msg/TurtleStatus.msg"
+    "/home/wxx/xwg/turtle_ws/src/turtle_interfaces:msg/TurtleStatus.msg",
+    "/home/wxx/xwg/turtle_ws/src/turtle_interfaces:srv/Patrol.srv"
   ]
 }

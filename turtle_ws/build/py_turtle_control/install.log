@@ -1,9 +1,16 @@
+/home/wxx/xwg/turtle_ws/install/py_turtle_control/lib/python3.10/site-packages/py_turtle_control/patrol_server.py
 /home/wxx/xwg/turtle_ws/install/py_turtle_control/lib/python3.10/site-packages/py_turtle_control/__init__.py
+/home/wxx/xwg/turtle_ws/install/py_turtle_control/lib/python3.10/site-packages/py_turtle_control/spawn_turtle.py
+/home/wxx/xwg/turtle_ws/install/py_turtle_control/lib/python3.10/site-packages/py_turtle_control/tf_broadcaster.py
 /home/wxx/xwg/turtle_ws/install/py_turtle_control/lib/python3.10/site-packages/py_turtle_control/turtle_circle.py
+/home/wxx/xwg/turtle_ws/install/py_turtle_control/lib/python3.10/site-packages/py_turtle_control/__pycache__/patrol_server.cpython-310.pyc
 /home/wxx/xwg/turtle_ws/install/py_turtle_control/lib/python3.10/site-packages/py_turtle_control/__pycache__/__init__.cpython-310.pyc
+/home/wxx/xwg/turtle_ws/install/py_turtle_control/lib/python3.10/site-packages/py_turtle_control/__pycache__/spawn_turtle.cpython-310.pyc
+/home/wxx/xwg/turtle_ws/install/py_turtle_control/lib/python3.10/site-packages/py_turtle_control/__pycache__/tf_broadcaster.cpython-310.pyc
 /home/wxx/xwg/turtle_ws/install/py_turtle_control/lib/python3.10/site-packages/py_turtle_control/__pycache__/turtle_circle.cpython-310.pyc
 /home/wxx/xwg/turtle_ws/install/py_turtle_control/share/ament_index/resource_index/packages/py_turtle_control
 /home/wxx/xwg/turtle_ws/install/py_turtle_control/share/py_turtle_control/package.xml
+/home/wxx/xwg/turtle_ws/install/py_turtle_control/share/py_turtle_control/launch/turtles_patrol.launch.py
 /home/wxx/xwg/turtle_ws/install/py_turtle_control/lib/python3.10/site-packages/py_turtle_control-0.0.0-py3.10.egg-info/PKG-INFO
 /home/wxx/xwg/turtle_ws/install/py_turtle_control/lib/python3.10/site-packages/py_turtle_control-0.0.0-py3.10.egg-info/dependency_links.txt
 /home/wxx/xwg/turtle_ws/install/py_turtle_control/lib/python3.10/site-packages/py_turtle_control-0.0.0-py3.10.egg-info/top_level.txt
@@ -11,4 +18,7 @@
 /home/wxx/xwg/turtle_ws/install/py_turtle_control/lib/python3.10/site-packages/py_turtle_control-0.0.0-py3.10.egg-info/zip-safe
 /home/wxx/xwg/turtle_ws/install/py_turtle_control/lib/python3.10/site-packages/py_turtle_control-0.0.0-py3.10.egg-info/SOURCES.txt
 /home/wxx/xwg/turtle_ws/install/py_turtle_control/lib/python3.10/site-packages/py_turtle_control-0.0.0-py3.10.egg-info/requires.txt
+/home/wxx/xwg/turtle_ws/install/py_turtle_control/lib/py_turtle_control/patrol_server
+/home/wxx/xwg/turtle_ws/install/py_turtle_control/lib/py_turtle_control/spawn_turtle
+/home/wxx/xwg/turtle_ws/install/py_turtle_control/lib/py_turtle_control/tf_broadcaster
 /home/wxx/xwg/turtle_ws/install/py_turtle_control/lib/py_turtle_control/turtle_circle

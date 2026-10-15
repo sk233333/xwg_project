@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/wxx/xwg/turtle_ws/build/turtle_interfaces/rosidl_generator_py/turtle_interfaces/msg/_turtle_status_s.c" "CMakeFiles/turtle_interfaces__rosidl_generator_py.dir/rosidl_generator_py/turtle_interfaces/msg/_turtle_status_s.c.o" "gcc" "CMakeFiles/turtle_interfaces__rosidl_generator_py.dir/rosidl_generator_py/turtle_interfaces/msg/_turtle_status_s.c.o.d"
+  "/home/wxx/xwg/turtle_ws/build/turtle_interfaces/rosidl_generator_py/turtle_interfaces/srv/_patrol_s.c" "CMakeFiles/turtle_interfaces__rosidl_generator_py.dir/rosidl_generator_py/turtle_interfaces/srv/_patrol_s.c.o" "gcc" "CMakeFiles/turtle_interfaces__rosidl_generator_py.dir/rosidl_generator_py/turtle_interfaces/srv/_patrol_s.c.o.d"
   )
 
 # Targets to which this target links.

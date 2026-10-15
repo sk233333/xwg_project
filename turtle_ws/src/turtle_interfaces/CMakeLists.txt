@@ -13,6 +13,7 @@ find_package(builtin_interfaces REQUIRED)         # 因为 msg 里用了 Time
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/TurtleStatus.msg"
+  "srv/Patrol.srv"
   DEPENDENCIES builtin_interfaces
 )
 #这是整个文件的灵魂。每新增一个 .msg 都要在这里登记，上面find_package里 rosidl_default_generators包里的用法。

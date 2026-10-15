@@ -1,4 +1,4 @@
 # generated from rosidl_cmake/cmake/rosidl_cmake-extras.cmake.in
 
-set(turtle_interfaces_IDL_FILES "msg/TurtleStatus.idl")
-set(turtle_interfaces_INTERFACE_FILES "msg/TurtleStatus.msg")
+set(turtle_interfaces_IDL_FILES "msg/TurtleStatus.idl;srv/Patrol.idl")
+set(turtle_interfaces_INTERFACE_FILES "msg/TurtleStatus.msg;srv/Patrol.srv;srv/Patrol_Request.msg;srv/Patrol_Response.msg")
